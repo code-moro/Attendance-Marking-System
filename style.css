@@ -1,0 +1,122 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('re1.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 300px;
+	
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+.rightmenu ul li a{
+text-decoration: none;
+color:white;	
+}
+#fisrtlist{
+	color:#10AC84;
+}
+
+.rightmenu ul li:hover{
+	color:#10AC84;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h4{
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#buttonone{
+	outline: 0;
+	background: none;
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height:20px;
+	text-transform: uppercase;
+	width: 150px;
+	padding: 15px;
+	border: 2.5px solid whitesmoke;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: 15px;
+	transition-property: background, transform;
+	position: relative;
+}
+
+ #buttonone:hover, #buttonone:active, #buttonone:focus{
+	background: #10AC84;
+	transform: scale(1.1);
+}
